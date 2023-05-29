@@ -9,6 +9,7 @@
 .button {
   width: 100px;
   height: 100px;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
 /* .container{
@@ -18,9 +19,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   } */
-.button {
-  grid-area: 1 / 1 / 2 / 2;
-}
+
 .logo {
   width: 70px;
   height: 70px;
@@ -48,7 +47,7 @@
   background-color: rgb(65, 61, 61);
   color: rgba(201, 157, 38, 0.925);
   list-style: none;
-  box-shadow: 4px 5px 5px  rgba(0, 0, 0, 0.836);
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.836);
 }
 
 .modal-header {
