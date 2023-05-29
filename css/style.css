@@ -1,3 +1,67 @@
-body {
-    background-color: darkgrey;
+/* *{
+    Text-shadow: 2px 4px 13px black;
+    
+} */
+
+.container {
+  /* background: linear-gradient(green, #013220); */
+  color: rgb(195, 204, 68);
+  background: linear-gradient(rgba(66, 45, 105, 0.61), rgba(240, 227, 227, 0)),
+    url(/images/japan-night-scenery-from-w0.peakpx.com.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+ul.menu {
+  background: linear-gradient(rgb(69, 85, 136), rgb(144, 127, 240));
+  padding-bottom: 20px;
+  padding-top: 20px;
+  /* background-color: green; */
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+nav {
+  background: linear-gradient(rgb(62, 81, 143), rgb(145, 130, 235));
+}
+
+.Skills {
+  font-size: 3rem;
+  text-align: center;
+  /* text-decoration: underline; */
+  padding: 0;
+  margin: 35px;
+  margin-bottom: 70px;
+  margin-top: 90px;
+  /* border: 0; */
+}
+.Skills-Listed {
+  text-align: center;
+  font-size: 2rem;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.project-title {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.institution {
+  font-size: 1.2rem;
+}
+.degree {
+  font-size: 1.2rem;
+}
+.year {
+  font-size: 1.2rem;
+}
+
+.footer {
+  height: 50px;
 }
