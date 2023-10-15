@@ -8,16 +8,41 @@ header {
   position: sticky;
 }
 nav {
-  left: 90%;
+  left: 0%;
   position: fixed;
 }
+menu{
+  text-decoration: none;
+}
 .menu-item {
-  color: rgba(255, 255, 255, 0.205);
+  padding: 15px 25px;
+  margin-block: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(236, 233, 221);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  box-shadow: 0 9px #999;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Nabla", sans-serif;
+  margin-top: 45px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
 }
 .menu-item > a {
   color: #fda2f1e8;
   font-size: 150%;
   text-decoration: none;
+}
+.menu-item:active{
+  
+  background-color: #3e8e41;
+  box-shadow: 0 5px #555555;
+  transform: translateY(1px);
+  color: #fff;
 }
 
 .menu-item > a:hover {
@@ -25,6 +50,8 @@ nav {
   transition: 0.2s;
 }
 
+@media (min-width:150px),(max-width:1050px) {
+  
 .container {
   color: rgb(255, 255, 250);
   background: linear-gradient(rgba(66, 45, 105, 0.61), rgba(240, 227, 227, 0)),
@@ -32,6 +59,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
 }
 
 .about-section {
